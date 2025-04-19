@@ -101,4 +101,6 @@ async def delete_stats(ctx):
     await ctx.send("⚠️ Všetky štatistiky boli vynulované.")
  
 # Spustenie bota 
-bot.run("MTM2MzE1MzU1Njk0MDY1MjYwNA.Gxv0DW.1Xh4ZZvTPJHCJh9KHIHZNMN-KPoVYfKYHxz9Pc")
+import os
+
+bot.run(os.getenv("TOKEN"))
